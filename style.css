@@ -1,0 +1,379 @@
+header {
+  font-family: "Sigmar", serif;
+}
+
+main,
+footer {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 86px;
+}
+
+.header--nav {
+  display: flex;
+  margin: 0 auto;
+  width: 609px;
+  height: 28px;
+  padding-top: 10px;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0 auto;
+  gap: 41px;
+  font-size: 28px;
+}
+
+.nav a {
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: rgba(83, 83, 83, 0.699);
+}
+
+.header-search {
+  font-size: 28px;
+  padding-top: 10px;
+  padding-right: 40px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.header-search:hover {
+  color: rgba(83, 83, 83, 0.699);
+}
+
+.header-search svg {
+  margin-right: 10px;
+}
+
+.container--img--button {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.img-cross-fon {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+}
+
+.button--buy {
+  position: absolute;
+  white-space: nowrap;
+  top: 80%;
+  left: 75%;
+  padding: 6px 25px;
+  font-size: 2.5vw;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button--buy:hover {
+  background-color: rgba(83, 83, 83, 0.699);
+}
+
+@media (max-width: 1339px) {
+  .button--buy {
+    font-size: 20px;
+    padding: 5px 15px;
+    top: 60%;
+    left: 85%;
+  }
+}
+
+@media (max-width: 996px) {
+  .button--buy {
+    font-size: 20px;
+    padding: 5px 15px;
+    top: 50%;
+    left: 75%;
+  }
+}
+
+@media (max-width: 756px) {
+  .button--buy {
+    font-size: 20px;
+    padding: 5px 15px;
+    top: 40%;
+    left: 75%;
+  }
+}
+
+.main--container {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 986px;
+  margin: 0 auto;
+}
+
+.assortment--container {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1729px;
+  max-height: 612px;
+}
+
+.top-Sellers {
+  font-size: 40px;
+  margin-top: 90px;
+  margin-left: 96px;
+  color: #de343d;
+}
+
+.scroll-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+  margin: 0 96px;
+}
+
+.img-cross {
+  display: inline-flex;
+  gap: 150px;
+}
+
+.img-cross figure {
+  flex: 0 0 auto;
+  width: 300px;
+  text-align: center;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Signature {
+  text-align: left;
+}
+
+.nike {
+  font-size: 30px;
+  color: #5f5f5fc5;
+}
+
+.name {
+  font-size: 35px;
+  color: black;
+}
+
+.price {
+  font-size: 30px;
+  color: black;
+}
+
+.size {
+  font-size: 25px;
+  color: #de343d;
+}
+
+.button-scroll-left,
+.button-scroll-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 35%;
+  padding: 10 20px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.button-scroll-left {
+  left: -50px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.button-scroll-left:hover {
+  transform: scale(1.1);
+}
+
+.button-scroll-right {
+  right: -50px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.button-scroll-right:hover {
+  transform: scale(1.1);
+}
+
+.see-all {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.4105px;
+  border: 1.56064px solid #dedede;
+  padding: 6.24256px 24.9702px;
+  color: #808080;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s;
+}
+
+.see-all:hover {
+  background-color: rgba(83, 83, 83, 0.699);
+}
+
+.main--container-2 {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 986px;
+  margin: 0 auto;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.slogan img {
+  width: 100%;
+  max-width: 1450px;
+}
+
+.cross1 {
+  position: absolute;
+  white-space: nowrap;
+  left: 22.5%;
+  top: -41.5%;
+}
+
+.cross2 {
+  position: absolute;
+  white-space: nowrap;
+  right: 5%;
+  top: -55%;
+}
+
+.cross3 {
+  position: absolute;
+  white-space: nowrap;
+  right: 8%;
+  bottom: -9%;
+}
+
+.compani {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.frame {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.assortment--container--vertically {
+  display: block;
+  width: 100%;
+  max-width: 1539px;
+  max-height: 1249px;
+  margin: 0 auto;
+}
+
+.img-cross-vertically {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 2%;
+}
+
+footer {
+  margin-top: 15%;
+  color: #de343d;
+  width: 100%;
+  max-width: 1920px;
+  height: 432px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.container-info-footer {
+  display: flex;
+  justify-content: left;
+  gap: 70px;
+  position: absolute;
+  left: 1066px;
+  top: 108px;
+  font-size: 36px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: left;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: left;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: left;
+}
+
+.links {
+  padding-top: 30%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: auto;
+}
+
+a {
+  color: #de343d;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #808080;
+}
